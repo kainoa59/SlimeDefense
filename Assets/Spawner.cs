@@ -24,7 +24,6 @@ public class Spawner : MonoBehaviour
 
     [SerializeField] private Waypoints[] waveWaypoints; // Array to hold waypoints for each wave
 
-    // Start is called before the first frame update
     void Start()
     {
         _pooler = GetComponent<ObjectPooler>();
@@ -76,7 +75,7 @@ public class Spawner : MonoBehaviour
     private void SpawnEnemy()
     {
         GameObject newInstance = _pooler.GetInstanceFromPool();
-        newInstance.transform.position = new Vector3(-12.3f, 1.67f, 0); // Adjust the spawn position as needed
+        newInstance.transform.position = new Vector3(-12.3f, 1.67f, 0); // Adjust the spawn position 
         newInstance.SetActive(true);
 
         EnemyHealth enemyHealth = newInstance.GetComponent<EnemyHealth>();

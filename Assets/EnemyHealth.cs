@@ -22,7 +22,7 @@ public class EnemyHealth : MonoBehaviour
         ResetHealth(); // Initialize health
         _gameManager = FindObjectOfType<GameManager>(); // Find the GameManager instance
         _moveToPoints = GetComponent<MoveToPoints>(); // Get the MoveToPoints component
-        _audioSource = GetComponent<AudioSource>(); // Assuming AudioSource is on the same GameObject
+        _audioSource = GetComponent<AudioSource>(); 
     }
 
     public void TakeDamage(float damage)

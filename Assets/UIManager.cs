@@ -6,10 +6,10 @@ using TMPro; // For TMP elements
 public class UIManager : MonoBehaviour
 {
     [Header("UI Elements")]
-    [SerializeField] private GameObject tutorialCanvas; // Assign the Tutorial Canvas in the Inspector
-    [SerializeField] private Button startButton; // Assign the Start Button in the Inspector
-    [SerializeField] private Button tutorialButton; // Assign the Tutorial Button in the Inspector
-    [SerializeField] private Button closeTutorialButton; // Assign the Close Button in the Inspector
+    [SerializeField] private GameObject tutorialCanvas; // Tutorial Canvas 
+    [SerializeField] private Button startButton; // Start Button 
+    [SerializeField] private Button tutorialButton; // Tutorial Button 
+    [SerializeField] private Button closeTutorialButton; // Close Button 
 
     void Start()
     {

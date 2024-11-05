@@ -59,7 +59,7 @@ public class PauseManager : MonoBehaviour
 
     public void QuitGame()
     {
-        // Optionally, load a different scene or quit the application
+        // load a start scene 
         SceneManager.LoadScene("StartScene");
     }
 }
